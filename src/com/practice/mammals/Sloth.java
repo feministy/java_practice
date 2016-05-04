@@ -8,5 +8,6 @@ public class Sloth extends Mammal {
         this.setAge(age);
         this.setName(name);
         this.lifespan = 12;
+        this.setDiet(1);
     }
 }
