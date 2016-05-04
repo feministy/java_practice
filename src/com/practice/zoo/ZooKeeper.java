@@ -16,6 +16,7 @@ public class ZooKeeper {
 
         zoo.addAnimal(sloth);
 
+        System.out.println("The sloth's lifespan is: " + sloth.getLifespan());
         System.out.println(zoo.getName() + " is open for business!");
         System.out.println("The zoo has " + zoo.getAnimals().size() + " animal(s)!");
     }
