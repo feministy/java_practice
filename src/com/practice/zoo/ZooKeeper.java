@@ -10,9 +10,7 @@ public class ZooKeeper {
         Zoo zoo = new Zoo();
         zoo.setName("Liz's Amazing Wildlife Refuge");
 
-        Sloth sloth = new Sloth();
-        sloth.setName("Mossy");
-        sloth.setAge(1);
+        Sloth sloth = new Sloth("Mossy", 1);
 
         zoo.addAnimal(sloth);
 
