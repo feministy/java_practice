@@ -17,6 +17,6 @@ public class ZooKeeper {
         zoo.addAnimal(sloth);
 
         System.out.println(zoo.getName() + " is open for business!");
-        System.out.println("The zoo has " + zoo.getAnimals().size() + " animal(s!");
+        System.out.println("The zoo has " + zoo.getAnimals().size() + " animal(s)!");
     }
 }
