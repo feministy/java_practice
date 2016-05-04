@@ -8,8 +8,14 @@ import com.practice.mammals.Sloth;
 public class ZooKeeper {
     public static void main(String[] args) {
         Zoo zoo = new Zoo();
+        zoo.setName("Liz's Amazing Wildlife Refuge");
+
         Sloth sloth = new Sloth();
+        sloth.setName("Mossy");
+        sloth.setAge(1);
+
         zoo.addAnimal(sloth);
+
         System.out.println(zoo.getAnimals().size());
     }
 }
