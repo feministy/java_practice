@@ -4,9 +4,9 @@ package com.practice.animals;
  * Created by liz on 5/3/16.
  */
 public class Animal {
-    public int lifespan;
-    public int age;
-    public String name;
+    protected int lifespan;
+    private int age;
+    private String name;
 
     public int getLifespan() {
         return lifespan;
